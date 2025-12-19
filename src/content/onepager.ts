@@ -7,9 +7,9 @@ export type NavItem = {
   };
   
   export const nav: NavItem[] = [
-    { id: "benefits", href: "#benefits", label: "Benefits" },
-    { id: "compare", href: "#compare", label: "Compare" },
-    { id: "contact", href: "#contact", label: "Contact" },
+    // { id: "benefits", href: "#benefits", label: "Benefits" },
+    // { id: "compare", href: "#compare", label: "Compare" },
+    // { id: "contact", href: "#contact", label: "Contact" },
   ];  
   
   export const hero = {
@@ -19,35 +19,35 @@ export type NavItem = {
     trustedBy: [
         {
           name: "CF Montréal",
-          src: "/src/components/pics/team_logo/cf-montreal.svg",
+          src: "/team_logo/cf-montreal.svg",
         },
         {
             name: "Houston Dynamo",
-            src: "src/components/pics/team_logo/dynamo.png",
+            src: "/team_logo/dynamo.png",
           },
           {
             name: "MNUFC",
-            src: "src/components/pics/team_logo/minnesota-united.svg",
+            src: "/team_logo/minnesota-united.svg",
           },
           {
             name: "NYCFC",
-            src: "src/components/pics/team_logo/nycfc.png",
+            src: "/team_logo/nycfc.png",
           },
           {
             name: "STLSC",
-            src: "src/components/pics/team_logo/st-louis-city.svg",
+            src: "/team_logo/st-louis-city.svg",
           },
           {
             name: "Iowa Wild",
-            src: "src/components/pics/team_logo/iowa-wild.png",
+            src: "/team_logo/iowa-wild.png",
           },
           {
             name: "Columbus Crew",
-            src: "src/components/pics/team_logo/cleveland-browns.svg",
+            src: "/team_logo/cleveland-browns.svg",
           },
           {
             name: "Cleveland Browns",
-            src: "src/components/pics/team_logo/columbus-crew.png",
+            src: "/team_logo/columbus-crew.png",
           },
       ],
   };
